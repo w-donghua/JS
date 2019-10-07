@@ -27,8 +27,8 @@ p{
 }
 body{
     background-image: url("timg.jpeg");
-    width: 1000px;
-    height: 650px;
+    background-size: auto;
+
     background-repeat: no-repeat;
 }
 h2{
@@ -50,8 +50,9 @@ a.a_link:visited{color:green;text-decoration: none;}
 a.a_link:hover{color: pink;text-decoration: underline red;}
 a.a_link:active{color: red;text-decoration: underline blue;}
 
-table,tr,th,td {border: 2px solid red;padding: 10px;margin: 15px;
-    border-collapse: collapse;
+table,tr,th,td {border: 30px solid red;padding: 10px;margin: 15px;
+    /*border-collapse: collapse;*/
+    border-image: url("jingyesi.jpeg") 30 30 round;
 }
 
 
@@ -91,4 +92,6 @@ img.img_position{
 }
 img:hover{
     opacity: 0.4;
+    transform: rotate(30deg);
+    box-shadow:10px 5px 12px red ;
 }
