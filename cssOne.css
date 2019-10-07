@@ -20,8 +20,6 @@ li{
     display: inline;
 }
 
-
-
 p{
     background: blue;
     display: block;
@@ -39,6 +37,7 @@ h2{
     border:yellowgreen 2px;
     border-style: solid dotted dashed double;/*四种边框*/
     padding:5px;
+    display: inline;
     outline: antiquewhite solid 3px;
 }
 
@@ -89,4 +88,7 @@ img.img_position{
     margin: 0px;
     position: fixed;
     clip: rect(20px,400px,300px,10px);
+}
+img:hover{
+    opacity: 0.4;
 }
