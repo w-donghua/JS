@@ -3,8 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <title>使用css</title>
+    <link rel="stylesheet" type="text/css" href="cssOne.css"/>
+    <style type="text/css">
+        input[type="text"]{
+            width: 150px;
+            display: block;
+            margin-bottom: 10px;
+            background-color: bisque;
+        }
+        input[type="button"]{
+            width: 120px;
+            margin-left: 100px;
+            display: block;
+        }
+        [title~=hello]
+        {
+            color: red;
+        }
+    </style>
 </head>
 <body>
+<table>
+    <tr>
+        <th>山东</th>
+        <th>河南</th>
+    </tr>
+    <tr>
+        <td>人口</td>
+        <td>数量</td>
+    </tr>
+    <tr>
+        <td>320</td>
+        <td>674</td>
+    </tr>
+</table>
 
+<h2 title="world hello">历史都是由有钱人、有才人、有权人创造，不信你看，一大部分旅游景点都是这类人的豪宅。</h2>
+
+<br />
+<h3 title="hello">Take a sad song and make it be.<br/>
+    Remember to let her into your heart'
+    Then you can start to make it better.</h3>
+<form name="input" action="" method="get">
+    <input type="text" name="Name" value="wang" size="30" />
+    <input type="text"  />
+    <input type="button" value="提交" />
+</form>
+<a href="#">baidu</a>
+<p>hello world!</p>
 </body>
 </html>
