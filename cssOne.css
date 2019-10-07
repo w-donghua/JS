@@ -84,6 +84,24 @@ pre.pre_overflow{
     width:200px;
     height: 150px;
 }
+#div_flash{
+
+    background-color: red;
+    float: right;;
+    padding: auto;
+    text-align: center;
+    line-height: 200px;
+    color: red;
+    font-size: 40px;
+    animation: myfirst 5s;
+    width:100px;
+    height:100px;
+}
+    @keyframes  myfirst{
+    0% {background:red;}
+    75% {background:green;}
+    100%{background: blue;}
+}
 img.img_position{
     z-index: -1;
     margin: 0px;
@@ -94,4 +112,5 @@ img:hover{
     opacity: 0.4;
     transform: rotate(30deg);
     box-shadow:10px 5px 12px red ;
+    width:300px;
 }
