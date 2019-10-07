@@ -1,3 +1,26 @@
+/*创建菜单*/
+ul{
+    float: left;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+a.a_menu{
+    width:7em;
+    float:left;
+    background-color: blueviolet;
+    margin:2px;
+    color:white;
+    text-decoration: none;
+}
+a.a_menu:hover{background-color: pink;}
+li{
+    text-align: center;
+    display: inline;
+}
+
+
 
 p{
     background: blue;
@@ -23,11 +46,47 @@ h3{
     word-spacing: 30px;
     text-transform: uppercase;
 }
-a:link{color: blue; text-decoration: none;}
-a:visited{color:green;text-decoration: none;}
-a:hover{color: pink;text-decoration: underline red;}
-a:active{color: red;text-decoration: underline blue;}
+a.a_link:link{color: blue; text-decoration: none;}
+a.a_link:visited{color:green;text-decoration: none;}
+a.a_link:hover{color: pink;text-decoration: underline red;}
+a.a_link:active{color: red;text-decoration: underline blue;}
 
 table,tr,th,td {border: 2px solid red;padding: 10px;margin: 15px;
     border-collapse: collapse;
+}
+
+
+
+/*定位position*/
+p.pos_left{
+    position: relative;
+    left: -20px;
+}
+p.pos_right{
+    position: relative;
+    left: 20px;
+}
+p.pos_absoult{
+    position:absolute;
+    left: 100px;
+    top: 80px;
+}
+p.pos_fixed{
+    position: fixed;
+    left: 200px;
+    top: 150px;
+}
+
+/*添加滚动条*/
+pre.pre_overflow{
+    background-image: url("jingyesi.jpeg");
+    overflow:scroll;
+    width:200px;
+    height: 150px;
+}
+img.img_position{
+    z-index: -1;
+    margin: 0px;
+    position: fixed;
+    clip: rect(20px,400px,300px,10px);
 }
